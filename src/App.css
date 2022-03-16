@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(-45deg, #01111b,#041c38,#1f024e);  
+  background: linear-gradient(-45deg, #320038,#1a0018,#000000);  
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Abril Fatface', cursive;
 }
 
 h1 {
   color: aliceblue;
   font-size: 60px;
   font-weight: 50;
-  font-family: 'Nanum Gothic', sans-serif;
-  margin: 0;
+  margin: 10% 0;
 }
 
 .form-mail {
@@ -36,7 +36,7 @@ hr {
 
 label {
   font-size: 1.5rem;
-  color: #821997;
+  color: #29022c;
   font-weight: 900;
   margin-bottom: 0.5rem;
 }
@@ -46,7 +46,7 @@ input {
   background: transparent;
   box-shadow: 0 -2px 2px aliceblue;
   border-radius: 20px;
-  color: #350d44;
+  color: #29022c;
 }
 
 textarea {
@@ -60,11 +60,11 @@ button {
   border-radius: 20px;
   font-size: 1.2rem;
   color:aliceblue;
-  background-color: #5f0b70;
+  background-color: #29022c;
   cursor: pointer;
 }
 
 button:hover,
 button:focus {
-  background-color: #35043f;
+  background-color: #56005c;
 }
